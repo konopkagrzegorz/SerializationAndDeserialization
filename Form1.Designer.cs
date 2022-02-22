@@ -48,7 +48,7 @@
             // 
             // textArea
             // 
-            this.textArea.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textArea.Location = new System.Drawing.Point(12, 12);
             this.textArea.Name = "textArea";
             this.textArea.Size = new System.Drawing.Size(479, 289);
@@ -193,16 +193,14 @@
             // 
             // exampleArea
             // 
+            this.exampleArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.exampleArea.Location = new System.Drawing.Point(554, 380);
             this.exampleArea.Name = "exampleArea";
+            this.exampleArea.ReadOnly = true;
             this.exampleArea.Size = new System.Drawing.Size(283, 169);
             this.exampleArea.TabIndex = 15;
-            this.exampleArea.Text =
-                "{\n\t\"firstname\":\"Grzegorz\"," +
-                "\n\t\"lastname\":\"Konopka\"," +
-                "\n\t\"age\":30," +
-                "\n\t\"email\":\"example@example.com\"\n}";
-            this.exampleArea.ReadOnly = true;
+            this.exampleArea.Text = "{\n\t\"firstname\":\"Grzegorz\",\n\t\"lastname\":\"Konopka\",\n\t\"age\":30,\n\t\"email\":\"example@ex" +
+    "ample.com\"\n}";
             // 
             // mainForm
             // 
